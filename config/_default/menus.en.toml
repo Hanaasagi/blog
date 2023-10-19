@@ -11,19 +11,28 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-name = "Posts"
+name = "Archives"
+pre = "pencil"
 pageRef = "posts"
 weight = 10
 
 [[main]]
 name = "GitHub"
-pageRef = "https://github.com/Hanaasagi"
+pre = "github"
+url = "https://github.com/Hanaasagi"
 weight = 20
 
 [[main]]
-name = "About me"
-pageRef = "about"
+name = "Email"
+pre = "envelope"
+url = "mailto:ambiguous404@gmail.com"
 weight = 30
+
+[[main]]
+name = "About me"
+pre = "ghost"
+pageRef = "about"
+weight = 40
 
 #[[main]]
 #  name = "example sub-menu 1"
