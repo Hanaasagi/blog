@@ -10,6 +10,7 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+# https://blowfish.page/samples/icons/
 [[main]]
 name = "Archives"
 pre = "pencil"
@@ -33,6 +34,12 @@ name = "About me"
 pre = "ghost"
 pageRef = "about"
 weight = 40
+
+[[main]]
+identifier = "RSS"
+pre = "rss"
+url = "/index.xml"
+weight = 50
 
 #[[main]]
 #  name = "example sub-menu 1"
