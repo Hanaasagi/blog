@@ -71,6 +71,7 @@ smartTOCHideUnfocusedChildren = true
   showTaxonomies = false
   showAuthorsBadges = false
   showWordCount = true
+  showComments = true
   sharingLinks = [
     # "linkedin",
     "twitter",
