@@ -12,7 +12,7 @@
 
 # https://blowfish.page/samples/icons/
 [[main]]
-name = "Archives"
+name = "Posts"
 pre = "pencil"
 pageRef = "posts"
 weight = 10
