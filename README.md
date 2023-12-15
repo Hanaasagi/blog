@@ -1,7 +1,11 @@
 # Hanaasagi's blog
 
 #### Chinese:
-https://blog.dreamfever.me
+
+- Website: https://blog.dreamfever.me
+- RSS: https://blog.dreamfever.me/index.xml
 
 #### Japanese:
-https://zenn.dev/hanaasagi
+
+- Website: https://zenn.dev/hanaasagi
+- RSS: https://zenn.dev/hanaasagi/feed
