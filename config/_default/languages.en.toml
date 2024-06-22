@@ -11,7 +11,8 @@ title = "Hanaasagi - (ゝω·)~ kira"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   description = "Hanaasagi's personal blog"
-  copyright = "Hanaasagi © 2023"
+  # copyright = "Hanaasagi © 2023"
+  copyright = "© 2016-2024 Hanaasagi. All rights reserved."
 
 [author]
   name = "Hanaasagi"
