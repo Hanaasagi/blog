@@ -3,7 +3,7 @@ title = "实现 Brainfuck x64 Compiler"
 summary = ""
 description = ""
 categories = [""]
-tags = []
+tags = ["Brainfuck"]
 date = 2024-08-31T18:00:00+09:00
 draft = false
 

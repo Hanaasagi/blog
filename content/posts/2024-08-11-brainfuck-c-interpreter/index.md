@@ -3,7 +3,7 @@ title = "实现 Brainfuck 解释器"
 summary = ""
 description = ""
 categories = [""]
-tags = []
+tags = ["Brainfuck"]
 date = 2024-08-11T03:20:53+09:00
 draft = false
 
