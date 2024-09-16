@@ -151,3 +151,67 @@ $ ffmpeg -i input.mp4 -filter:v "select='gt(scene,0.2)',showinfo,scale=320:-1,ti
 
 
 时间信息还是通过 `showinfo` 在日志中提取即可
+
+
+
+## 遇到的一些问题
+
+
+
+###  雪碧图数量不对
+
+举个例子，使用下面的命令生成视频
+
+```shell
+$ ffmpeg -f lavfi -i testsrc=duration=2.3:size=1280x720:rate=30 -c:v libx264 -pix_fmt yuv420p testsrc.mp4
+```
+
+
+
+我们能够看到 0 1 2 的计数器
+
+<video src="./round-test/testsrc.mp4" controls="controls" width="1280" height="720"></video>
+
+
+
+如果我们按照 fps=1 来 1 秒生成一张图，那么理论上应该出现三张图片
+
+```shell
+$ ffmpeg -i testsrc.mp4 -vf "fps=1,scale=320:-1,tile=10x10" -q:v 20 time-linear-%02d.jpg
+```
+
+
+
+但是现在只有两张
+
+![](./round-test/time-linear-01.jpg)
+
+
+
+
+
+当我们使用固定时间间隔来生成雪碧图的时候，可能需要设置这个 `round` 参数，参考文档 https://ffmpeg.org/ffmpeg-filters.html#fps-1
+
+
+
+`round` 参数表示时间戳（PTS）的舍入方式。
+
+可选值有：
+
+- `zero`：向 0 舍入
+- `inf`：向远离 0 的方向舍入
+- `down`：向负无穷方向舍入
+- `up`：向正无穷方向舍入
+- `near`：舍入到最接近的值
+
+
+
+更新后的命令如下
+
+```shell
+$ ffmpeg -i testsrc.mp4 -vf "fps=1:round=up,scale=320:-1,tile=10x10" -q:v 20 time-linear-with-round-%02d.jpg
+```
+
+
+
+![](./round-test/time-linear-with-round-01.jpg)
