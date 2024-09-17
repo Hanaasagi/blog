@@ -215,3 +215,30 @@ Notes:
 文档参考
 
 - https://git-scm.com/docs/git-notes
+
+
+
+## autostash
+
+通过使用 `--autostash` 选项，可以在 `git pull` 时自动完成 stash 和 pop 的操作。
+
+```shell
+$ git pull origin master --autostash
+```
+
+使用 `--autostash` 选项后，将自动执行以下操作:
+
+- 如果在 `pull` 之前有本地未提交的更改，则会自动进行 stash。
+- `pull` 完成后，自动 pop stash 中的更改。
+
+也可以全局配置该选项：
+
+```shell
+$ git config --global pull.autostash true
+
+```
+
+
+
+在 `rebase` 操作中同样可以使用 `--autostash` 选项。
+
