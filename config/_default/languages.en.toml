@@ -14,7 +14,7 @@ title = "Hanaasagi - (ゝω·)~ kira"
   # copyright = "Hanaasagi © 2023"
   copyright = "© 2016-2024 Hanaasagi. All rights reserved."
 
-[author]
+[params.author]
   name = "Hanaasagi"
   image = "img/avatar.png"
   headline = "Yet Antoher Copy && Paste Programmer"
