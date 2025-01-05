@@ -6,3 +6,5 @@ github.com/Hanaasagi/blowfish/v2 v2.0.0-20240922094229-2c4bdbeed0b0 h1:haLt6Y0R9
 github.com/Hanaasagi/blowfish/v2 v2.0.0-20240922094229-2c4bdbeed0b0/go.mod h1:3du+eVAIpshcBu9qljBEdVfcAa+nWl6ggQPdSmWo/Mc=
 github.com/Hanaasagi/blowfish/v2 v2.0.0-20240922100823-6b1919c7463b h1:J26aTM/LOOU5WWQQZF+ybZo++nvO8YoX+CRkc+1LuV4=
 github.com/Hanaasagi/blowfish/v2 v2.0.0-20240922100823-6b1919c7463b/go.mod h1:3du+eVAIpshcBu9qljBEdVfcAa+nWl6ggQPdSmWo/Mc=
+github.com/Hanaasagi/blowfish/v2 v2.0.0-20250105133713-a70614c51f35 h1:IRu5dIG8PPIqsZIVRFwKVFfOBIDJeOevM2xyu4+Mwl8=
+github.com/Hanaasagi/blowfish/v2 v2.0.0-20250105133713-a70614c51f35/go.mod h1:3du+eVAIpshcBu9qljBEdVfcAa+nWl6ggQPdSmWo/Mc=
