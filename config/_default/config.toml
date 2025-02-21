@@ -13,8 +13,13 @@ summaryLength = 0
 
 buildDrafts = false
 buildFuture = false
+hasCJKLanguage = true
+enableEmoji = true
 
-# googleAnalytics = "G-XXXXXXXXX"
+# version 3
+# googleAnalytics = "UA-PROPERTY_ID"
+# version 4
+googleAnalytics = "G-1DY1JWVDZV"
 
 [imaging]
   anchor = 'Center'
