@@ -1,0 +1,11 @@
+# {{ .Site.Title }}
+
+> {{ .Site.Params.description }}
+> Author: {{ .Site.Params.author.name }}
+
+## Content
+{{ range $type := slice "posts" }}
+### {{ title $type }}
+
+{{ range (where $.Site.RegularPages "Type" $type) }}- [{{ .Title }}]({{ .Permalink }}index.md): Published {{ .Date.Format "2006-01-02" }}
+{{ end }}{{ end }}

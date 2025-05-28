@@ -36,7 +36,23 @@ googleAnalytics = "G-1DY1JWVDZV"
   priority = 0.5
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "TXT"]
+  page = ["HTML", "Markdown"]
+
+[mediaTypes."text/markdown"]
+  suffixes = ["md"]
+
+[outputFormats.Markdown]
+  mediaType = "text/markdown"
+  isPlainText = true
+  isHTML = false
+  baseName = "index"
+  rel = "alternate"
+
+[outputFormats.TXT]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
 
 [related]
   threshold = 80
