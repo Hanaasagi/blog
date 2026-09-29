@@ -255,3 +255,6 @@ hugo.darwin
 hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
+
+# SEO tool binary
+tools/seo-gen/seo-gen
