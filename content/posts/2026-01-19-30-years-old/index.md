@@ -2,7 +2,7 @@
 title = "30 岁 - 总集篇"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2026-01-19T00:00:00+09:00
 draft = false

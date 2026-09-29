@@ -2,7 +2,7 @@
 title = "整理一些 Git 的实用配置/技巧"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2024-06-02T19:01:23+09:00
 draft = false

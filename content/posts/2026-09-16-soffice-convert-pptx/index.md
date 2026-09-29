@@ -2,7 +2,7 @@
 title = "soffice 转换 PPT 遇到的几个问题"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = [""]
 date = 2026-09-16T18:17:29+09:00
 draft = false

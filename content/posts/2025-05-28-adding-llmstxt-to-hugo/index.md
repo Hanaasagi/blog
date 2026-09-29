@@ -2,7 +2,7 @@
 title = "为博客增加 llms.txt"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2025-05-28T20:07:00+09:00
 draft = false

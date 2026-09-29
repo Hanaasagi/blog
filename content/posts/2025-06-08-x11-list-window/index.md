@@ -2,7 +2,7 @@
 title = "X11 获取并切换窗口"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2025-06-08T12:29:30+09:00
 draft = false

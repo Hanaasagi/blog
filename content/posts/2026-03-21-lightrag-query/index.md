@@ -2,7 +2,7 @@
 title = "LightRAG 源码阅读 - Query"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = ["RAG", "AI", "LLM", "LightRAG", "Context Engineering"]
 date = 2026-03-21T10:06:09+09:00
 draft = false

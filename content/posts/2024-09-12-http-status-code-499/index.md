@@ -2,7 +2,7 @@
 title = "HTTP Status Code 499"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2024-09-12T17:10:00+09:00
 draft = false

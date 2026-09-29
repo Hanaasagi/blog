@@ -2,7 +2,7 @@
 title = "解决 Linux 下 Firefox 分辨率异常问题"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2024-06-08T18:13:37+09:00
 draft = false

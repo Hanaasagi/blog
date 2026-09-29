@@ -2,7 +2,7 @@
 title = "Decode UTF-8"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2025-08-19T00:17:33+09:00
 draft = false

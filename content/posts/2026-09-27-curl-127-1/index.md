@@ -2,7 +2,7 @@
 title =  "为什么 curl 127.1 会请求 127.0.0.1"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = ["network", "curl"]
 date = 2026-09-27T09:20:39+09:00
 draft = false

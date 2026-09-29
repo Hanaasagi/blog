@@ -2,7 +2,7 @@
 title = "Python socket.setdefaulttimeout"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = [""]
 date = 2024-09-28T16:01:06+09:00
 draft = false

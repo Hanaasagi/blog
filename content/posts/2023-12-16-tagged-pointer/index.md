@@ -2,7 +2,7 @@
 title = "Tagged Pointer"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2023-12-16T00:00:00+09:00
 draft = false

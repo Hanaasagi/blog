@@ -2,7 +2,7 @@
 title = "如何写一个 Terminal Text Picker"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2025-06-28T11:03:22+09:00
 draft = false

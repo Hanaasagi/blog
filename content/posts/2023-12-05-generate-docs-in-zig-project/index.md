@@ -2,7 +2,7 @@
 title = "为 Zig 项目构建在线文档"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2023-12-05T21:00:00+09:00
 draft = false

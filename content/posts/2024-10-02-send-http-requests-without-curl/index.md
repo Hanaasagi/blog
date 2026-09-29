@@ -2,7 +2,7 @@
 title = "没有 curl 的情况下发送 HTTP 请求"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = [""]
 date = 2024-10-02T06:03:53+09:00
 draft = false

@@ -2,7 +2,7 @@
 title = "Linux 下查找应用的 icon"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2025-05-17T11:03:28+09:00
 draft = false

@@ -2,7 +2,7 @@
 title = "实现 Brainfuck Transpiler"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = ["Brainfuck"]
 date = 2024-08-17T18:00:00+09:00
 draft = false

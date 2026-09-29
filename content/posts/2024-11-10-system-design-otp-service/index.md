@@ -2,7 +2,7 @@
 title = "2FA and OTP"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = ["OTP", "TOTP", "HOTP", "2FA", "Authentication"]
 date = 2024-11-09T23:07:22+09:00
 draft = false

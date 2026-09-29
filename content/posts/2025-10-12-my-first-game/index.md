@@ -2,7 +2,7 @@
 title = "游戏开发记录"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = []
 date = 2025-10-12T00:03:22+09:00
 draft = false

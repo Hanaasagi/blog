@@ -5,7 +5,7 @@
 title = "FFmpeg 抽帧指南"
 summary = ""
 description = ""
-categories = [""]
+categories = []
 tags = ["FFmpeg"]
 date = 2024-06-16T11:38:59+09:00
 draft = false
