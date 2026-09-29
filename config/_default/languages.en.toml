@@ -10,7 +10,22 @@ title = "Hanaasagi - (ゝω·)~ kira"
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  description = "Hanaasagi's personal blog"
+  description = "Hanaasagi's personal blog about programming, systems engineering, and technology."
+  keywords = [
+    "programming",
+    "software engineering",
+    "systems engineering",
+    "Linux",
+    "Web",
+    "AI",
+    "LLM",
+    "Python",
+    "Rust",
+    "Zig",
+    "Go",
+    "TypeScript",
+    "open source",
+  ]
   # copyright = "Hanaasagi © 2023"
   copyright = "© 2016-2026 Hanaasagi. All rights reserved."
 

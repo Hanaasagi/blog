@@ -16,9 +16,15 @@ enableCodeCopy = true
 # robots = ""
 
 disableImageOptimization = true
+# Allow search engines to show large snippets and image previews
+robots = "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+# Enable BreadcrumbList JSON-LD for better search result display
+enableStructuredBreadcrumbs = true
 
 # defaultBackgroundImage = "img/background.png" # used as default for background images
 defaultFeaturedImage = "img/background.png" # used as default for featured images in all articles
+# Fallback OG/Twitter image when a post has no feature image
+defaultSocialImage = "img/background.png"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -143,6 +149,11 @@ smartTOCHideUnfocusedChildren = true
   # globalWidgetMessage = "Hello"
   # globalWidgetColor = "#FFDD00"
   # globalWidgetPosition = "Right"
+
+[seo]
+  # Meta description priority: try front matter summary, then description,
+  # then Hugo auto-generated summary, then site description
+  metaDescriptionOrder = ["summary", "description", "autosummary", "site"]
 
 [verification]
   # google = ""
